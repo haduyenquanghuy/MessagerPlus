@@ -3,22 +3,56 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36962DEB2A7B8C3800A4382B /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 36962DEA2A7B8C3800A4382B /* swiftgen.yml */; };
+		369A59592A7B8CC900E5EFFE /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369A59582A7B8CC900E5EFFE /* Assets.swift */; };
+		369A59692A7B98AE00E5EFFE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 369A596B2A7B98AE00E5EFFE /* Localizable.strings */; };
+		369A596E2A7B9B5E00E5EFFE /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369A596D2A7B9B5E00E5EFFE /* Strings.swift */; };
 		36BA13662A78A24500DDDF4E /* MessagerPlusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BA13652A78A24500DDDF4E /* MessagerPlusApp.swift */; };
 		36BA13682A78A24500DDDF4E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BA13672A78A24500DDDF4E /* ContentView.swift */; };
 		36BA136A2A78A24600DDDF4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36BA13692A78A24600DDDF4E /* Assets.xcassets */; };
 		36BA136D2A78A24600DDDF4E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36BA136C2A78A24600DDDF4E /* Preview Assets.xcassets */; };
+		36BA137D2A78AAB300DDDF4E /* SFPRODISPLAYTHINITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 36BA13742A78AAB300DDDF4E /* SFPRODISPLAYTHINITALIC.OTF */; };
+		36BA137E2A78AAB300DDDF4E /* SFPRODISPLAYBOLD.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 36BA13752A78AAB300DDDF4E /* SFPRODISPLAYBOLD.OTF */; };
+		36BA137F2A78AAB300DDDF4E /* SFPRODISPLAYBLACKITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 36BA13762A78AAB300DDDF4E /* SFPRODISPLAYBLACKITALIC.OTF */; };
+		36BA13802A78AAB300DDDF4E /* SFPRODISPLAYULTRALIGHTITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 36BA13772A78AAB300DDDF4E /* SFPRODISPLAYULTRALIGHTITALIC.OTF */; };
+		36BA13812A78AAB300DDDF4E /* SFPRODISPLAYREGULAR.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 36BA13782A78AAB300DDDF4E /* SFPRODISPLAYREGULAR.OTF */; };
+		36BA13822A78AAB300DDDF4E /* SFPRODISPLAYLIGHTITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 36BA13792A78AAB300DDDF4E /* SFPRODISPLAYLIGHTITALIC.OTF */; };
+		36BA13832A78AAB300DDDF4E /* SFPRODISPLAYHEAVYITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 36BA137A2A78AAB300DDDF4E /* SFPRODISPLAYHEAVYITALIC.OTF */; };
+		36BA13842A78AAB300DDDF4E /* SFPRODISPLAYMEDIUM.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 36BA137B2A78AAB300DDDF4E /* SFPRODISPLAYMEDIUM.OTF */; };
+		36BA13852A78AAB300DDDF4E /* SFPRODISPLAYSEMIBOLDITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 36BA137C2A78AAB300DDDF4E /* SFPRODISPLAYSEMIBOLDITALIC.OTF */; };
+		36BA13882A78AAFF00DDDF4E /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36BA13872A78AAFF00DDDF4E /* Launch Screen.storyboard */; };
+		36EE0C312A7B810B002A7610 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EE0C302A7B810B002A7610 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		36962DEA2A7B8C3800A4382B /* swiftgen.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
+		369A59582A7B8CC900E5EFFE /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		369A596A2A7B98AE00E5EFFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		369A596C2A7B98BA00E5EFFE /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		369A596D2A7B9B5E00E5EFFE /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		36BA13622A78A24500DDDF4E /* MessagerPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessagerPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36BA13652A78A24500DDDF4E /* MessagerPlusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagerPlusApp.swift; sourceTree = "<group>"; };
 		36BA13672A78A24500DDDF4E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		36BA13692A78A24600DDDF4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36BA136C2A78A24600DDDF4E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		36BA13742A78AAB300DDDF4E /* SFPRODISPLAYTHINITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYTHINITALIC.OTF; sourceTree = "<group>"; };
+		36BA13752A78AAB300DDDF4E /* SFPRODISPLAYBOLD.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYBOLD.OTF; sourceTree = "<group>"; };
+		36BA13762A78AAB300DDDF4E /* SFPRODISPLAYBLACKITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYBLACKITALIC.OTF; sourceTree = "<group>"; };
+		36BA13772A78AAB300DDDF4E /* SFPRODISPLAYULTRALIGHTITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYULTRALIGHTITALIC.OTF; sourceTree = "<group>"; };
+		36BA13782A78AAB300DDDF4E /* SFPRODISPLAYREGULAR.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYREGULAR.OTF; sourceTree = "<group>"; };
+		36BA13792A78AAB300DDDF4E /* SFPRODISPLAYLIGHTITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYLIGHTITALIC.OTF; sourceTree = "<group>"; };
+		36BA137A2A78AAB300DDDF4E /* SFPRODISPLAYHEAVYITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYHEAVYITALIC.OTF; sourceTree = "<group>"; };
+		36BA137B2A78AAB300DDDF4E /* SFPRODISPLAYMEDIUM.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYMEDIUM.OTF; sourceTree = "<group>"; };
+		36BA137C2A78AAB300DDDF4E /* SFPRODISPLAYSEMIBOLDITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYSEMIBOLDITALIC.OTF; sourceTree = "<group>"; };
+		36BA13862A78AACA00DDDF4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		36BA13872A78AAFF00DDDF4E /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		36EE0C302A7B810B002A7610 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		3D904F6C7C129D57FF0531A9 /* Pods-MessagerPlus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessagerPlus.debug.xcconfig"; path = "Target Support Files/Pods-MessagerPlus/Pods-MessagerPlus.debug.xcconfig"; sourceTree = "<group>"; };
+		EA72A67925F687EE269EEC97 /* Pods-MessagerPlus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessagerPlus.release.xcconfig"; path = "Target Support Files/Pods-MessagerPlus/Pods-MessagerPlus.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,11 +66,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36962DE72A7B8ADA00A4382B /* SwiftGen */ = {
+			isa = PBXGroup;
+			children = (
+				369A596D2A7B9B5E00E5EFFE /* Strings.swift */,
+				369A59582A7B8CC900E5EFFE /* Assets.swift */,
+			);
+			path = SwiftGen;
+			sourceTree = "<group>";
+		};
 		36BA13592A78A24500DDDF4E = {
 			isa = PBXGroup;
 			children = (
+				36962DEA2A7B8C3800A4382B /* swiftgen.yml */,
 				36BA13642A78A24500DDDF4E /* MessagerPlus */,
 				36BA13632A78A24500DDDF4E /* Products */,
+				7843927F8CFC7E41E56D5DAB /* Pods */,
+				FDFA0D202448F78D0CD1534A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,10 +97,16 @@
 		36BA13642A78A24500DDDF4E /* MessagerPlus */ = {
 			isa = PBXGroup;
 			children = (
+				36962DE72A7B8ADA00A4382B /* SwiftGen */,
+				36BA13862A78AACA00DDDF4E /* Info.plist */,
+				36BA13732A78AAA400DDDF4E /* Resource */,
+				36EE0C302A7B810B002A7610 /* LoginView.swift */,
 				36BA13652A78A24500DDDF4E /* MessagerPlusApp.swift */,
 				36BA13672A78A24500DDDF4E /* ContentView.swift */,
+				36BA13872A78AAFF00DDDF4E /* Launch Screen.storyboard */,
 				36BA13692A78A24600DDDF4E /* Assets.xcassets */,
 				36BA136B2A78A24600DDDF4E /* Preview Content */,
+				369A596B2A7B98AE00E5EFFE /* Localizable.strings */,
 			);
 			path = MessagerPlus;
 			sourceTree = "<group>";
@@ -67,6 +119,38 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		36BA13732A78AAA400DDDF4E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				36BA13762A78AAB300DDDF4E /* SFPRODISPLAYBLACKITALIC.OTF */,
+				36BA13752A78AAB300DDDF4E /* SFPRODISPLAYBOLD.OTF */,
+				36BA137A2A78AAB300DDDF4E /* SFPRODISPLAYHEAVYITALIC.OTF */,
+				36BA13792A78AAB300DDDF4E /* SFPRODISPLAYLIGHTITALIC.OTF */,
+				36BA137B2A78AAB300DDDF4E /* SFPRODISPLAYMEDIUM.OTF */,
+				36BA13782A78AAB300DDDF4E /* SFPRODISPLAYREGULAR.OTF */,
+				36BA137C2A78AAB300DDDF4E /* SFPRODISPLAYSEMIBOLDITALIC.OTF */,
+				36BA13742A78AAB300DDDF4E /* SFPRODISPLAYTHINITALIC.OTF */,
+				36BA13772A78AAB300DDDF4E /* SFPRODISPLAYULTRALIGHTITALIC.OTF */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		7843927F8CFC7E41E56D5DAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D904F6C7C129D57FF0531A9 /* Pods-MessagerPlus.debug.xcconfig */,
+				EA72A67925F687EE269EEC97 /* Pods-MessagerPlus.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FDFA0D202448F78D0CD1534A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,6 +158,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 36BA13702A78A24600DDDF4E /* Build configuration list for PBXNativeTarget "MessagerPlus" */;
 			buildPhases = (
+				369A595A2A7B914800E5EFFE /* SwiftGen */,
+				647C18558E721F956266FB28 /* [CP] Check Pods Manifest.lock */,
 				36BA135E2A78A24500DDDF4E /* Sources */,
 				36BA135F2A78A24500DDDF4E /* Frameworks */,
 				36BA13602A78A24500DDDF4E /* Resources */,
@@ -103,12 +189,13 @@
 				};
 			};
 			buildConfigurationList = 36BA135D2A78A24500DDDF4E /* Build configuration list for PBXProject "MessagerPlus" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				vi,
 			);
 			mainGroup = 36BA13592A78A24500DDDF4E;
 			productRefGroup = 36BA13632A78A24500DDDF4E /* Products */;
@@ -125,6 +212,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36962DEB2A7B8C3800A4382B /* swiftgen.yml in Resources */,
+				36BA13842A78AAB300DDDF4E /* SFPRODISPLAYMEDIUM.OTF in Resources */,
+				36BA13832A78AAB300DDDF4E /* SFPRODISPLAYHEAVYITALIC.OTF in Resources */,
+				369A59692A7B98AE00E5EFFE /* Localizable.strings in Resources */,
+				36BA13852A78AAB300DDDF4E /* SFPRODISPLAYSEMIBOLDITALIC.OTF in Resources */,
+				36BA13822A78AAB300DDDF4E /* SFPRODISPLAYLIGHTITALIC.OTF in Resources */,
+				36BA137E2A78AAB300DDDF4E /* SFPRODISPLAYBOLD.OTF in Resources */,
+				36BA137F2A78AAB300DDDF4E /* SFPRODISPLAYBLACKITALIC.OTF in Resources */,
+				36BA13882A78AAFF00DDDF4E /* Launch Screen.storyboard in Resources */,
+				36BA13802A78AAB300DDDF4E /* SFPRODISPLAYULTRALIGHTITALIC.OTF in Resources */,
+				36BA13812A78AAB300DDDF4E /* SFPRODISPLAYREGULAR.OTF in Resources */,
+				36BA137D2A78AAB300DDDF4E /* SFPRODISPLAYTHINITALIC.OTF in Resources */,
 				36BA136D2A78A24600DDDF4E /* Preview Assets.xcassets in Resources */,
 				36BA136A2A78A24600DDDF4E /* Assets.xcassets in Resources */,
 			);
@@ -132,23 +231,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		369A595A2A7B914800E5EFFE /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PODS_ROOT}/SwiftGen/bin/swiftgen\n";
+		};
+		647C18558E721F956266FB28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MessagerPlus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		36BA135E2A78A24500DDDF4E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36EE0C312A7B810B002A7610 /* LoginView.swift in Sources */,
 				36BA13682A78A24500DDDF4E /* ContentView.swift in Sources */,
+				369A596E2A7B9B5E00E5EFFE /* Strings.swift in Sources */,
+				369A59592A7B8CC900E5EFFE /* Assets.swift in Sources */,
 				36BA13662A78A24500DDDF4E /* MessagerPlusApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		369A596B2A7B98AE00E5EFFE /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				369A596A2A7B98AE00E5EFFE /* en */,
+				369A596C2A7B98BA00E5EFFE /* vi */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		36BA136E2A78A24600DDDF4E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -209,6 +367,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -261,18 +420,22 @@
 		};
 		36BA13712A78A24600DDDF4E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D904F6C7C129D57FF0531A9 /* Pods-MessagerPlus.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MessagerPlus/Preview Content\"";
-				DEVELOPMENT_TEAM = QZXZTUZ9QX;
+				DEVELOPMENT_TEAM = BX2YY68T22;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MessagerPlus/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -282,6 +445,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.huyhdq.MessagerPlus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -290,18 +454,22 @@
 		};
 		36BA13722A78A24600DDDF4E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA72A67925F687EE269EEC97 /* Pods-MessagerPlus.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MessagerPlus/Preview Content\"";
-				DEVELOPMENT_TEAM = QZXZTUZ9QX;
+				DEVELOPMENT_TEAM = BX2YY68T22;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MessagerPlus/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -311,6 +479,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.huyhdq.MessagerPlus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

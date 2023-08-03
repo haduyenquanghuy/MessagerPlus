@@ -1,0 +1,15 @@
+strings:
+  inputs:
+    - MessagerPlus/en.lproj
+#    - MessagerPlus/vi.lproj
+  outputs:
+    - templateName: structured-swift5
+      output: MessagerPlus/SwiftGen/Strings.swift
+xcassets:
+  inputs:
+    - MessagerPlus/Assets.xcassets
+#    - Resources/MoreImages.xcassets
+#    - Resources/Colors.xcassets
+  outputs:
+    - templateName: swift5
+      output: MessagerPlus/SwiftGen/Assets.swift
