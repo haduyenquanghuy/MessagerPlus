@@ -5,4 +5,10 @@
   Created by Ha Duyen Quang Huy on 03/08/2023.
   
 */
-"hello" = "Hello world";
+
+// Common
+"Common.PhoneNumberOrEmail" = "Số di động hoặc email";
+"Common.Password" = "Mật khẩu";
+"Common.Login" = "Đăng nhập";
+"Common.ForgetPassword" = "Bạn quên mật khẩu ư?";
+"Common.CreateAccount" = "Tạo tài khoản mới";
