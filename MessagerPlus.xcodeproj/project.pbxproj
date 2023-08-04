@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		363D0B872A7CB0760017F0B1 /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363D0B862A7CB0760017F0B1 /* Color+.swift */; };
+		363D0B8B2A7CB54E0017F0B1 /* TextFieldWithPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363D0B8A2A7CB54E0017F0B1 /* TextFieldWithPlaceholder.swift */; };
+		363D0B8D2A7CB78C0017F0B1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363D0B8C2A7CB78C0017F0B1 /* Constants.swift */; };
+		36662F552A7CB910008FA08C /* Font+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36662F542A7CB910008FA08C /* Font+.swift */; };
 		36962DEB2A7B8C3800A4382B /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 36962DEA2A7B8C3800A4382B /* swiftgen.yml */; };
 		369A59592A7B8CC900E5EFFE /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369A59582A7B8CC900E5EFFE /* Assets.swift */; };
 		369A59692A7B98AE00E5EFFE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 369A596B2A7B98AE00E5EFFE /* Localizable.strings */; };
@@ -29,6 +33,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		363D0B862A7CB0760017F0B1 /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
+		363D0B8A2A7CB54E0017F0B1 /* TextFieldWithPlaceholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldWithPlaceholder.swift; sourceTree = "<group>"; };
+		363D0B8C2A7CB78C0017F0B1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		36662F542A7CB910008FA08C /* Font+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+.swift"; sourceTree = "<group>"; };
 		36962DEA2A7B8C3800A4382B /* swiftgen.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
 		369A59582A7B8CC900E5EFFE /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 		369A596A2A7B98AE00E5EFFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -66,6 +74,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		363D0B852A7CB0620017F0B1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				363D0B862A7CB0760017F0B1 /* Color+.swift */,
+				36662F542A7CB910008FA08C /* Font+.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		363D0B882A7CB5050017F0B1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				363D0B892A7CB50E0017F0B1 /* View */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		363D0B892A7CB50E0017F0B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				363D0B8A2A7CB54E0017F0B1 /* TextFieldWithPlaceholder.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		36962DE72A7B8ADA00A4382B /* SwiftGen */ = {
 			isa = PBXGroup;
 			children = (
@@ -97,13 +130,16 @@
 		36BA13642A78A24500DDDF4E /* MessagerPlus */ = {
 			isa = PBXGroup;
 			children = (
+				363D0B8C2A7CB78C0017F0B1 /* Constants.swift */,
+				363D0B882A7CB5050017F0B1 /* Utils */,
+				363D0B852A7CB0620017F0B1 /* Extension */,
 				36962DE72A7B8ADA00A4382B /* SwiftGen */,
-				36BA13862A78AACA00DDDF4E /* Info.plist */,
 				36BA13732A78AAA400DDDF4E /* Resource */,
 				36EE0C302A7B810B002A7610 /* LoginView.swift */,
 				36BA13652A78A24500DDDF4E /* MessagerPlusApp.swift */,
 				36BA13672A78A24500DDDF4E /* ContentView.swift */,
 				36BA13872A78AAFF00DDDF4E /* Launch Screen.storyboard */,
+				36BA13862A78AACA00DDDF4E /* Info.plist */,
 				36BA13692A78A24600DDDF4E /* Assets.xcassets */,
 				36BA136B2A78A24600DDDF4E /* Preview Content */,
 				369A596B2A7B98AE00E5EFFE /* Localizable.strings */,
@@ -280,10 +316,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				36EE0C312A7B810B002A7610 /* LoginView.swift in Sources */,
+				363D0B872A7CB0760017F0B1 /* Color+.swift in Sources */,
 				36BA13682A78A24500DDDF4E /* ContentView.swift in Sources */,
+				36662F552A7CB910008FA08C /* Font+.swift in Sources */,
 				369A596E2A7B9B5E00E5EFFE /* Strings.swift in Sources */,
 				369A59592A7B8CC900E5EFFE /* Assets.swift in Sources */,
 				36BA13662A78A24500DDDF4E /* MessagerPlusApp.swift in Sources */,
+				363D0B8B2A7CB54E0017F0B1 /* TextFieldWithPlaceholder.swift in Sources */,
+				363D0B8D2A7CB78C0017F0B1 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
